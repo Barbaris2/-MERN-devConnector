@@ -21,6 +21,10 @@ if (process.env.NODE_ENV === 'production') {
   // Set static folder
   app.use(express.static('client/build'));
 
+  app.get('/', function (req, res) {
+    res.redirect('/');
+  });
+
   app.get('*', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
   });
