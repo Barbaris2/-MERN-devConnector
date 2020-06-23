@@ -4,6 +4,7 @@
 
 Это MERN-приложение из курса "MERN Stack Front To Back". Простая социальная сеть с авторизацией, созданием и удалением постов, комментариями, с созданием аккаунта с информацией о навыках, опыте работы и образовании.Отображение аватара пользователя при помощи Gravatar .
 Backend - mongoDB, NodeJS, Express. Frontend - ReactJS.
+Приложение развернуто на **Heroku** ссылка [тут](http://gentle-taiga-07905.herokuapp.com/dashboard)
 
 ### Описание курса
 
@@ -22,7 +23,7 @@ Backend - mongoDB, NodeJS, Express. Frontend - ReactJS.
 
 ## Описание веток
 
-- `git checkout master`- работа с HTML и SASS.
+- `git checkout master`- клиент и сервер
 
 ### Ветки Подкаста:
 
